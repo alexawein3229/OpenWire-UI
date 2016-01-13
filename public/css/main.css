@@ -3,7 +3,44 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Hind:400,700);
+@import url(https://fonts.googleapis.com/css?family=Hind:400,700|Open+Sans:400,400italic,700,700italic);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+}
+
+/* Font Styles */
+
+h1{
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+    line-height: 1.5em;
+}
+
+h2{
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+h3{
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+h4{
+
+}
+
+
 /* Header */
+
+
 .nav-pills {
     margin: 10px 0;
 }
@@ -59,3 +96,102 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
+/* Button Styles */
+
+.btn-primary {
+    background-image: none;
+    filter: none;
+    background-color: #286F68; 
+    border-color: none;
+    ext-shadow: none;
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+}
+
+.btn-primary:active, .btn-primary.active {
+    background-color: #125750;
+    border-color: #125750;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #125750;
+    background-position: 0 -15px;
+}
+
+
+.btn-success {
+    background-image: none;
+    filter: none;
+    background-color: #429435; 
+    border-color: none;
+    ext-shadow: none;
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+}
+
+.btn-success.active, .btn-success.active {
+    background-color: #247417;
+    border-color: #2474170;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color: #247417;
+    background-position: 0 -15px;
+}
+
+
+.btn-info {
+    background-image: none;
+    filter: none;
+    background-color: #543179; 
+    border-color: #543179;
+    ext-shadow: none;
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+}
+
+.btn-info.active, .btn-info.active {
+    background-color: #3B195F;
+    border-color: #3B195F;
+}
+
+.btn-info:hover, .btn-info:focus {
+    background-color: #3B195F;
+    border-color: #3B195F;
+    background-position: 0 -15px;
+}
+
+
+.btn-link {
+    color: #125750;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #125750;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+
+.navbar-inverse {
+    background-image: none;
+    background-image: none;
+    background-repeat: none;
+    filter: none;
+    filter: none;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+    font-family: 'Hind', sans-serif;
+
+}
+.navbar-inverse .navbar-brand {
+    color: #999;
+}
+
